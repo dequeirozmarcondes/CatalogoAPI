@@ -18,7 +18,7 @@ namespace CatalogoAPI.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.Sql("DELETE FROM Categorias WHERE Nome IN ('Bebidas', 'Lanches', 'Sobremesas')");
+            migrationBuilder.Sql("DELETE FROM Categorias");
         }
     }
 }

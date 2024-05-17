@@ -15,7 +15,7 @@ namespace CatalogoAPI.Migrations
             migrationBuilder.Sql("INSERT INTO Produtos(Nome, Descricao, Preco, ImagemUrl, Estoque, DataCadastro, CategoriaId) " +
                                " VALUES('Lanche Atum', 'Lanche de Atum com Maionese', 12.00, 'atum.jpg', 30, GETDATE(), 2)");
             migrationBuilder.Sql("INSERT INTO Produtos(Nome, Descricao, Preco, ImagemUrl, Estoque, DataCadastro, CategoriaId) " +
-                                              " VALUES('Pudim 100 g', 'Pudim de leite condensado', 15.00, 'pudim.jpg', 10, GETDATE(), 3)");
+                               " VALUES('Pudim 100 g', 'Pudim de leite condensado', 15.00, 'pudim.jpg', 10, GETDATE(), 3)");
         }
 
         /// <inheritdoc />
